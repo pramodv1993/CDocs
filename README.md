@@ -3,7 +3,7 @@
  2. OCR 
  3. NLP
 
-It is used for document recignition, processing and potentially context exraction of the documents.
+It is used for document recignition, processing and potentially context extraction of the documents.
  
  1. UI  and OCR are implenented as Spring Boot applications.
     Tessaract4J is used which is a Java distribution of Tessaract - Optical Character Recognition
