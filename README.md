@@ -15,5 +15,5 @@ Rabbit MQ messaging Queue has been used for communication between the services.
 
 The microservices needs to be dockerized to achieve total isolation in their workings.
 
-The application assumes the rabbit mq services is running in the local. This has been implemented just as a prototype and not for commercial purpose.
+The application assumes a rabbit MQ  server is running in the local. This has been implemented just as a prototype and not for commercial purpose.
 
