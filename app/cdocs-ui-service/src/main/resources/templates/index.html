@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Welcome</title>
+    <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+</head>
+<body>
+
+<div class="page-header" align="center">
+    <h1>C-Docs</h1>
+</div>
+
+
+<div class="container" >
+    <div class="row">
+        <div class="col-md-6" >
+            <form method="post" action="/uploaded" enctype="multipart/form-data" >
+                <div class="form-group files">
+                    <label>Upload Document</label>
+                    <input type="file" name="doc"class="form-control" multiple="">
+                </div>
+                <div class="container">
+                    <button type="submit"> Translate </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

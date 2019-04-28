@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
+      rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Processed Document:</title>
+</head>
+<body>
+Processed Document :</p>
+<table class="table">
+    <tr>
+        <td><label> Nouns </label></td>
+        <td th:text = "${nouns}" ></td>
+    </tr>
+    <tr>
+        <td><label>Verbs</label></td>
+        <td th:text = "${verbs}"></td>
+    </tr>
+    <th:block th:each ="entity : ${entities}">
+        <tr>
+            <td th:text="${entity.key}"></td>
+            <td th:text="${entity.value}"></td>
+        </tr>
+    </th:block>
+
+</table>
+</body>
+</html>
