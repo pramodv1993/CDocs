@@ -12,7 +12,7 @@ It is used for document recignition, processing and potentially context extracti
 Rabbit MQ messaging Queue has been used for communication between the services.
 
 
-[!Design](./Design.jpeg)
+![](Design.jpeg)
 
 ## Further Work:
 
