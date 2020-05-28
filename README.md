@@ -11,6 +11,9 @@ It is used for document recignition, processing and potentially context extracti
 
 Rabbit MQ messaging Queue has been used for communication between the services.
 
+##Design:
+[!Design](Design.jpeg)
+
 ## Further Work:
 
 The microservices needs to be dockerized to achieve total isolation in their workings.
